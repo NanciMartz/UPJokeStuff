@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>API Template</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Indie+Flower&family=Paprika&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <!-- Jumbotron -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Welcome</h1>
+        <p id="headjoke" class="lead">
+          If you're here then you're really desperate for jokes goddamn, I don't make any promise if they're good or not :/
+        </p>
+        <img id="dnp" src="https://i.ytimg.com/vi/xGmpl3JzEgs/maxresdefault.jpg" width="800" height="100">
+      </div>
+    </div>
+    <!-- Nav Links -->
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a id="p"  class="nav-link active" href="#">Programming</a>
+      </li>
+      <li class="nav-item">
+        <a id="m"  class="nav-link" href="#">Miscellaneous</a>
+      </li>
+    </ul>
+    <!-- Heading Name -->
+
+    <h2>
+      Jokes 
+    </h2>
+    <!-- Card Quote-->
+
+    <div class="card">
+      <div id="q" class="card-header">
+        Quote To Make You Feel Better
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p id="w">The less you reveal, the more people can wonder</p>
+          <footer id="em" class="blockquote-footer">
+            Said by <cite  title="Source Title">Emma Watson</cite>
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+    <!-- Bootstrap Button -->
+
+    <input id="searchTerm" type="text" placeholder="Enter search term" />
+    <button id="search" class="btn btn-outline-info">
+      Click
+    </button>
+    <!-- Categories for jokes -->
+<div id="box">
+  
+    <div id="content">
+      <div id="category"></div>
+
+      <div id="joke"></div>
+
+      <div id="response"></div>
+    </div>
+    </div>
+  </body>
+</html>

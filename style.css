@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  margin: 2em;
+}
+h1 {
+  color: #FF5733;
+  text-align: center;
+  font-family: "Paprika", cursive;
+  text-shadow: 2px 2px 5px #11C4D3;
+  text-decoration: overline;
+  text-decoration-color: #11C4D3;
+}
+h2 {
+  background-color: #FF5733;
+  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
+  color: #11C4D3;
+}
+h3 {
+  text-align: center;
+  text-decoration: underline;
+  color: #FF5733;
+  text-shadow: 2px 2px 5px #11C4D3;
+}
+h4 {
+  text-align: center;
+  font-family: "Balsamiq Sans", cursive;
+  color: #11C4D3;
+     text-decoration-line: overline underline; 
+text-decoration-color: #FF5733;
+    text-align: center;
+}
+#headjoke {
+  font-family: "Indie Flower", cursive;
+  text-decoration: underline;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+#p {
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+    text-align: center;
+}
+#m {
+  font-family: "Indie Flower", cursive;
+  font-size: 25px;
+}
+#box {
+  border: 2px solid red;
+  border-radius: 5px;
+  border-style: dotted;
+  background-color: #275F64;
+}
+#w {
+  font-family: "Paprika", cursive;
+    color: #FF5733;
+    text-align: center;
+}
+#em {
+  font-family: "Raleway", sans-serif;
+    color: #11C4D3;
+    text-decoration: underline;
+    text-align: center;
+}
+#dnp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  border: 10px solid #11C4D3;
+  border-radius: 4px;
+  opacity: 0.5; 
+}
+#dnp:hover {
+  opacity: 1;
+  animation: shake 0.5s;
+   animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+#q {
+  font-family: "Raleway", sans-serif;
+    color: #11C4D3;
+    text-shadow: 2px 2px 5px #FF5733;
+   font-size: 40px;
+      text-align: center;
+}
